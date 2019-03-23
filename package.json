@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "devDependencies": {
+    "rxjs": "^6.4.0",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "private": true,
+  "dependencies": {
+    "webpack-dev-server": "^3.2.1"
+  }
+}

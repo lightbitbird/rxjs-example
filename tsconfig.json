@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  }
+}
+
