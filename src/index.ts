@@ -1,6 +1,7 @@
 import {subscribeListDoc} from './list_node';
 import {self_observer1, self_observer2} from './observable';
 import { subject1, subjectWithSubscribe } from './subject';
+import { Client } from './socket-clients/client';
 
 const message: string = 'Hello World';
 
@@ -10,3 +11,4 @@ self_observer1();
 self_observer2();
 subject1();
 subjectWithSubscribe();
+new Client().greeting();
