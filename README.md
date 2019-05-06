@@ -1,2 +1,2 @@
-# rxjs-playground
+# rxjs-example
 RxJS and Typescript
